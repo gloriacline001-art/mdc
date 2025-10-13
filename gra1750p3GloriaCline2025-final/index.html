@@ -2,142 +2,169 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Venezuelan Quesillo|Gloria Cline, 2025 </title>
+<title>Venezuelan Quesillo | Gloria Cline, 2025</title>
 <style>
+/* --- Base --- */
 body {
-    padding: 20px;
-    margin: 2
-		;
-    background-color: darksalmon;
-    background-color: chocolate
-}
-wrapper {
-    width: 1500
-		px;
-    display: block;
-    margin: 0 auto;
-    background-color: darksalmon;
-	padding: align-content: center
-
-	} .p{ padding-bottom: 20px;
-	}
-.quesi {
-}
-section {
-    width: 90% ;
-    display: inline-block;
-    margin-right: -4px;a
-}
-	.logo{
-		width:250px;
-		height: auto; background-image: linear-gradient(4,6)
-background-color: darkred;
-	}
-	.banner={
-	float: center;	
-	}
-	.quesi={align-items: center}
+    padding: 5px;
+    margin: 1px;                /* must have units */
+	 background-color: beige;
+	/* keep just one bg color */
+    font-family: Verdana, sans-serif;
 	
-	h1{ text-align: center;	
-	ont-family: verdana;
-  font-size: 60px;
-	color: maroon;	
-	}
-	h2{font-size: 40px;
-		text-align: center;	
-	color: maroon;	}
-	h3{font-size: 30px;
-	color: maroon;	
-	}
-	p{font-size: 20px;
-	}
-	il{width: 90% ;
-		display: inline-block;
-    margin-left: 2;
-	}
-  
+}
+.wrapper {
+    width: 1010px;
+	background-image: url("back.png");
+	background-position: center;
+    margin: auto;
+    padding: 50px;
+}
+
+/* --- Header --- */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* logo left, title right */
+    gap: 20px;
+}
+.logo {
+    width: 170px;   /* keep it consistent with HTML attr */
+    height: 170px;
+}
+h1 {
+    margin: 0;
+    text-align: right;
+    font-size: 60px;
+    color: maroon;
+}
+
+/* --- Banner image --- */
+.quesi {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 80%;
+	 border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+
+}
+
+/* --- Headings & text --- */
+h2 { font-size: 40px; color: maroon; margin: 16px 0; }
+h3 { font-size: 30px; color: maroon; margin: 0 0 12px; }
+h4 { font-size: 25px; color: maroon; margin: 0 0 10px; }
+p, li { font-size: 20px; line-height: 1.5; }
+
+/* Remove width limit that made list lines short */
+ul { margin: 0 0 0 20px; padding: 0; }
+
+/* --- Two-column area --- */
+.columns {
+    display: flex;
+    flex-wrap: wrap;       /* allows stacking on small screens */
+    gap: 3%;
+    margin-top: 16px;
+}
+
+/* Card look */
+.card {
+    background-color: darksalmon;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+/* Left column: Ingredients */
+.ingredients {
+	flex: 0 1 35%; 
+	max-height: 400px}     /* ~47% width */
+
+
+/* Right column: Steps */
+.steps {
+    flex: 0 1 54%;         /* ~50% width */
+}
+
+/* Tips under Steps aligned to the right */
+.tips {
+    flex: 0 1 50%;
+    margin-left: auto;     /* pushes it under/right column */
+    margin-top: 16px;
+    background-color: beige;
+    border: 2px solid darksalmon;
+}
+
+/* --- Footer --- */
+footer p { font-size: 14px; line-height: 1.4; }
+
+/* --- Optional: small-screen stacking --- */
+@media (max-width: 800px) {
+  .ingredients, .steps, .tips { flex: 1 1 100%; }
+  .tips { margin-left: 0; }
+}
 </style>
 </head>
-
 <body>
-<wrapper>
+<div class="wrapper">
   <header>
-	</header>
-	  <img src="Dolci.jpg" alt="logo" 
-	class="logo"/> 
-                  <blockquote>
-                    <h1> Dolci dal Mondo!</h1>
-                  </blockquote>
-<main> <img src="img1.jpeg" alt="Quesillo" width="890"
- height="351" class="quesi"/> 
-  <blockquote>
-      <h2>Quesillo Venezolano</h2>
-  </blockquote>
-    <section> 
-	  <blockquote>
-		
-        <p>Discover the recipe for the best quesillo you’ll ever taste. Silky, creamy, and full of flavor, this irresistible dessert is made on the stovetop with just a few simple ingredients—eggs and sweetened condensed milk. Oven-safe and easy to prepare, this quesillo will quickly become a favorite in your kitchen. </p>
-      </blockquote>
-      <blockquote>
+    <img src="Dolci.png" alt="logo" class="logo" />
+    <h1>Dolci dal Mondo!</h1>
+  </header>
+
+  <main>
+    <img src="img1.jpeg" alt="Quesillo" class="quesi" />
+    <h2>Quesillo Venezolano</h2>
+    <p>
+      Discover the recipe for the best quesillo you’ll ever taste. Silky, creamy, and full of flavor, this irresistible dessert is made on the stovetop with just a few simple ingredients—eggs and sweetened condensed milk. Oven-safe and easy to prepare, this quesillo will quickly become a favorite in your kitchen.
+    </p>
+
+    <!-- Two columns -->
+    <div class="columns">
+      <section class="ingredients card">
         <h3>Ingredients</h3>
-      </blockquote>
-      <ul>
-        <li>6 large eggs</li>
-        <li>1 can (14 oz) sweetened condensed milk</li>
-        <li>1 can whole milk (use the condensed milk can to measure)</li>
-        <li>1 teaspoon vanilla extract</li>
-        <li>100 g sugar (for the caramel)</li>
-        <li>1 18 cm diameter mold</li>
-      </ul>
-    </section>
-    <section>
-      <blockquote>
+        <ul>
+          <li>6 large eggs</li>
+          <li>1 can (14 oz) sweetened condensed milk</li>
+          <li>1 can whole milk (use the condensed milk can to measure)</li>
+          <li>1 teaspoon vanilla extract</li>
+          <li>100 g sugar (for the caramel)</li>
+          <li>1 18 cm diameter mold</li>
+        </ul>
+      </section>
+
+      <section class="steps card">
         <h3>Steps</h3>
-      </blockquote>
-    </section>
+        <ol>
+          <li><strong>Caramelize the sugar.</strong> Add the sugar directly into the mold and place it over medium heat on the stove. Allow it to melt slowly, swirling the mold carefully so the sugar melts evenly. Once golden, remove from the heat and spread the caramel around the bottom and sides of the mold. Let it cool.</li>
+          <li><strong>Prepare the double boiler.</strong> In a large pot (big enough to fit the mold), add a little water and bring it to a gentle simmer. This will serve as the base for the bain-marie (double boiler). Make sure the pot has a lid.</li>
+          <li><strong>Blend the mixture.</strong> In a blender, combine the eggs, condensed milk, regular milk (measured with the condensed milk can), and vanilla. Blend until smooth and well mixed.</li>
+          <li><strong>Fill the mold.</strong> Pour the blended mixture into the caramelized mold once the caramel has cooled to room temperature.</li>
+          <li><strong>Cook the quesillo.</strong> Place the mold into the pot with simmering water. The water should reach about halfway up the sides of the mold. Cover both the mold and the pot with their lids. Cook over medium-high heat for about 1 hour, checking occasionally to ensure there is enough water (add more hot water if necessary). Make sure the mold does not float.</li>
+          <li><strong>Check doneness.</strong> After 1 hour, insert a toothpick or thin knife into the center. If it comes out clean, the quesillo is ready.</li>
+          <li><strong>Cool and serve.</strong> Remove the mold carefully from the pot and allow it to cool completely. Refrigerate for at least 2 hours before unmolding and serving.</li>
+        </ol>
+      </section>
 
-		<ol>
-			
-      <li>Caramelize the sugar.
-        Add the sugar directly into the mold and place it over medium heat on the stove. Allow it to melt slowly, swirling the mold carefully so the sugar melts evenly. Once golden, remove from the heat and spread the caramel around the bottom and sides of the mold. Let it cool.</li>
-      <li> Prepare the double boiler
-        In a large pot (big enough to fit the mold), add a little water and bring it to a gentle simmer. This will serve as the base for the bain-marie (double boiler). Make sure the pot has a lid.</li>
-      <li>In a blender combine: eggs, condense mil, regular milk, vanilla  blend until is well blended.</li>
-      <li>Blend the mixture
-        In a blender, combine the eggs, condensed milk, regular milk (measured with the condensed milk can), and vanilla. Blend until smooth and well mixed.</li>
-      <li>Fill the mold
-        Pour the blended mixture into the caramelized mold once the caramel has cooled to room temperature.</li>
-      <li>Cook the quesillo
-        Place the mold into the pot with simmering water. The water should reach about halfway up the sides of the mold. Cover both the mold and the pot with their lids. Cook over medium-high heat for about 1 hour, checking occasionally to ensure there is enough water (add more hot water if necessary). Make sure the mold does not float.</li>
-      <li>Check doneness
-        After 1 hour, insert a toothpick or thin knife into the center. If it comes out clean, the quesillo is ready.</li>
-      <li>After one hour the quesillo shall be ready.</li>
-      <li>Cool and serve
-        Remove the mold carefully from the pot and allow it to cool completely. Refrigerate for at least 2 hours before unmolding and serving.</li>
-    </ol>
-    <blockquote>
-      <h4>Tips and Notes</h4>
-    </blockquote>
-    <ul>
-      <li> Caramel care: Watch the sugar closely—it can burn fast. Swirl instead of stirring for even melting.</li>
-      <li>Water level: Keep water halfway up the mold’s sides. Add more hot water if needed, but don’t let the mold float.</li>
-      <li>Texture control: For a firmer quesillo, cook an extra 10 minutes; for a softer one, reduce the time slightly.</li>
-      <li>Flavor variations: Try adding a splash of rum, coconut milk, or citrus zest for a delicious twist.</li>
-      <li>Unmolding tip: Run a thin knife around the edges before flipping to release smoothly.</li>
-    </ul>
-		
+      <!-- Tips aligned under the right column -->
+      <aside class="tips card">
+        <h4>Tips and Notes</h4>
+        <ul>
+          <li><strong>Caramel care:</strong> Watch the sugar closely—it can burn fast. Swirl instead of stirring for even melting.</li>
+          <li><strong>Water level:</strong> Keep water halfway up the mold’s sides. Add more hot water if needed, but don’t let the mold float.</li>
+          <li><strong>Texture control:</strong> For a firmer quesillo, cook an extra 10 minutes; for a softer one, reduce the time slightly.</li>
+          <li><strong>Flavor variations:</strong> Try adding a splash of rum, coconut milk, or citrus zest for a delicious twist.</li>
+          <li><strong>Unmolding tip:</strong> Run a thin knife around the edges before flipping to release smoothly.</li>
+        </ul>
+      </aside>
+    </div>
+  </main>
 
-			</main>
-	
   <footer>
-    <blockquote>
-      <p>©2025 Gloria Cline</p>
-    </blockquote>
-    <blockquote>
-      <p>This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category</p>
-    </blockquote>
-	  <style> </style>
+    <p>©2025 Gloria Cline</p>
+    <p>This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</p>
   </footer>
-</wrapper>
+</div>
 </body>
 </html>
