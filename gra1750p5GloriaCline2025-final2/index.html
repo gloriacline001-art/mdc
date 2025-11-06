@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>La arepita Restaurant mobile page. Gloria Cline 2025</title>
+<link rel="stylesheet" href="https://use.typekit.net/rpb3qly.css">
+<style>
+:root {
+    /* change this if you want 280px or any other width */
+    --phone-width: 393px;
+--phone-min-height: 852px;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #a66d09;
+    font-family: open-sans, "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+    color: #fff;
+    display: flex;
+    justify-content: center; /* centers the phone on big screens */
+}
+/* THE WRAPPER: fixed phone width, centered */
+.wrapper {
+    width: min(100%, var(--phone-width)); /* stays 393px on big screens, shrinks if screen is smaller */
+    min-height: var(--phone-min-height);
+    margin: 0 auto;
+    padding: 12px;
+}
+header {
+    height: 120px; /* fixed typo 'heigh' */
+    background-color: darkgoldenrod;
+    background-image: url('logo-arepita.png');
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 80px auto;
+    padding: 10px 90px 10px 10px; /* right padding so text doesn't overlap the logo */
+    border-top: 4px solid #19424b;
+    border-bottom: 2px solid #19424b;
+    border-radius: 8px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
+h1 {
+    font-family: open-sans-condensed, sans-serif; /* removed duplicate 'font-family:' */
+    font-size: 42px;
+    color: #fff;
+    margin: 0;
+    margin-top: -10px;
+}
+h2 {
+    font-family: open-sans-condensed, sans-serif; /* removed duplicate */
+    color: #fff;
+    font-size: 17px;
+    text-transform: capitalize;
+    margin: 0 0 5px 10px; /* added px units */
+}
+.special-box h3 {
+    text-align: center;
+    font-family: open-sans-condensed, sans-serif;
+    font-size: 32px;
+    text-transform: uppercase;
+    margin: 12px 0;
+}
+h4 {
+    font-size: 14px;
+    margin: 0;
+    margin-top: 10px;
+}
+.special-image {
+    display: block;
+    margin: 0 auto; /* centers image */
+    border: 2px solid #19424b;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    max-width: 100%;
+    height: auto;
+}
+main p {
+    margin: 0;
+}
+/* button-style links (more reliable than <button> for navigation) */
+.btn {
+    display: block;
+    margin: 14px 0;
+    padding: 14px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    background-image: linear-gradient(#a66d09, #cbbd8d);
+    border-radius: 8px;
+    border: thin solid #2f4531;
+}
+address {
+    text-align: center;
+    font-style: normal;
+    margin: 6px 0 0;
+}
+a {
+    color: #fff;
+}
+footer {
+    font-size: 12px;
+}
+</style>
+</head>
+
+<body>
+<div class="wrapper">
+  <header>
+    <h1>La Arepita</h1>
+    <h2>Where every sip and bite feels like home</h2>
+  </header>
+  <main>
+    <div class="special-box">
+      <h3>This week’s special</h3>
+      <div class="special-item"> <img
+          src="arepa-carne-azada.jpg"
+          alt="Close-up of Arepa Carne Asada"
+          width="200"
+          height="218"
+          class="special-image"
+        >
+        <div class="special-text">
+          <h4>Arepa Carne Asada</h4>
+          <p> Grilled steak, white cheese, and pico de gallo. Served with your choice
+            of coffee—on us—for this week’s special. <em>$9.25</em> </p>
+        </div>
+      </div>
+    </div>
+  </main>
+  <nav> <a class="btn" href="#">Complete Menu</a> <a class="btn" href="https://maps.app.goo.gl/oafDvHWcVeP2bHD69" target="_blank" rel="noopener"> Map &amp; Directions </a>
+    <address>
+    <a href="https://maps.app.goo.gl/oafDvHWcVeP2bHD69" target="_blank" rel="noopener"> 711 Boylston St, Boston, MA 02116 </a><br/>
+    Open 7 days, 11am - 8pm
+    </address>
+    <a class="btn" href="tel:+16175355000">(617) 535-5000</a> </nav>
+  <footer>
+    <p>© 2025, Gloria Cline. This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</p>
+  </footer>
+</div>
+</body>
+</html>
