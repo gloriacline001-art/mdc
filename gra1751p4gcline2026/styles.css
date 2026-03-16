@@ -135,14 +135,6 @@ footer {
     padding-top: 3px;
     margin-top: -683px;
 }
-.2ndp_privacy {
-    color: #FFFFFF;
-    font-family: "Helvetica Oblique";
-    font-style: italic;
-    font-variant: normal;
-    font-size: 20px;
-    width: 0px;
-}
 #p1_news {
     width: 944px;
     color: #FFFFFF;
@@ -300,7 +292,7 @@ body wrapper {
     font-size: 38px;
     text-align: center;
     margin-top: 101px;
-    margin-left: 23px;
+    margin-left: -63px;
 }
 #h1_concerts {
     color: #D9181B;
@@ -320,7 +312,7 @@ body wrapper {
     font-variant: normal;
     text-align: center;
     font-size: 25px;
-    margin-left: 308px;
+    margin-left: 350px;
     margin-top: 117px;
 }
 #article {
