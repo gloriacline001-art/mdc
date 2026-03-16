@@ -1,0 +1,385 @@
+@charset "UTF-8";
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: #ccc;
+    display: flex;
+    flex-direction: column;
+}
+wrapper {
+    width: 1366px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0;
+    display: block;
+    background-color: #fff;
+    height: 1024px;
+}
+#merch #merch_background {
+    width: 11366px;
+    height: 1024px;
+    background-image: url(images/Merch_background.jpg);
+    background-size: cover;
+}
+header {
+    height: 150px;
+    background-color: #FFFFFF;
+}
+nav {
+    background-color: #000000;
+}
+#store {
+    background-image: url(images/store_background_inage.jpg);
+    margin-top: -33px;
+}
+#h2_store {
+    width: 756px;
+    color: #FF0004;
+    font-family: "Helvetica Oblique";
+    font-style: italic;
+    font-size: 48px;
+    text-align: center;
+    margin-left: 326px;
+    margin-top: 87px;
+}
+main {
+    background-size: cover;
+    width: 1366px;
+    height: 1024px;
+    margin-top: -1px;
+}
+#videos {
+    background-image: url(images/backgroud_video_img.jpg);
+}
+#videos_iframe {
+    width: 593px;
+    height: 421px;
+    margin-left: 351px;
+    margin-top: 85px;
+}
+#h1photos {
+    width: 1119px;
+    height: auto;
+    display: block;
+    color: #FE0004;
+    font-family: "Party LET Plain";
+    font-style: italic;
+    font-variant: normal;
+    font-weight: bold;
+    font-size: 82px;
+    margin-left: 86px;
+    margin-top: -1px;
+    padding-top: 210px;
+    padding-left: 126px;
+}
+#photo1 {
+    display: block;
+    padding-top: 44px;
+    padding-right: 147px;
+    background-repeat: no-repeat;
+    margin-top: 153px;
+    padding-left: 93px;
+}
+#photo3 {
+    padding-left: 46px;
+}
+#photo2 {
+    margin-left: 29px;
+    margin-right: 72px;
+    padding-top: 146px;
+    padding-left: 23px;
+}
+#news {
+    margin-top: -189px;
+}
+#p2_news {
+    width: 994px;
+    height: auto;
+    color: #FFFFFF;
+    font-family: "Helvetica Oblique";
+    font-style: italic;
+    font-size: 24px;
+    padding-top: 7px;
+    padding-left: 228px;
+}
+#p3_news {
+    width: 994px;
+    height: auto;
+    padding-left: 225px;
+    color: #FFFFFF;
+    font-family: "Helvetica Oblique";
+    font-style: italic;
+    font-size: 25px;
+}
+footer {
+    font-family: "Helvetica Oblique";
+    width: 1000px;
+    color: #121212;
+    font-style: italic;
+    background-position: left 50%;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    text-align: center;
+    padding-left: 110px;
+}
+#h1_privacy {
+}
+#article_privacy {
+    color: #FFFFFF;
+    font-family: "Helvetica Oblique";
+    font-style: italic;
+    font-variant: normal;
+    font-size: 20px;
+    width: 681px;
+    padding-left: 678px;
+    padding-top: 3px;
+    margin-top: -683px;
+}
+.2ndp_privacy {
+    color: #FFFFFF;
+    font-family: "Helvetica Oblique";
+    font-style: italic;
+    font-variant: normal;
+    font-size: 20px;
+    width: 0px;
+}
+#p1_news {
+    width: 944px;
+    color: #FFFFFF;
+    font-family: "Helvetica Oblique";
+    font-style: italic;
+    font-size: 25px;
+    margin-left: 235px;
+    margin-top: 184px;
+    padding-top: 382px;
+}
+#photo1 {
+    width: 2in;
+    display: inline-block;
+    background-image: url(images/Photo_gallery_1_img.jpg);
+    padding-top: 0px;
+    margin-left: 130px;
+    margin-top: -515px;
+}
+nav {
+    margin: 0px;
+    background-color: rgba(0,0,0,0.50);
+    width: 1366px;
+}
+header img {
+    height: 150px;
+    width: auto;
+    margin: auto;
+    display: block;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    background-color: #1E51C3;
+}
+#h1news {
+    color: #FFFFFF;
+    font-family: "Party LET Plain";
+    margin-top: 193px;
+    display: block;
+    font-style: italic;
+    top: 397px;
+    float: left;
+    left: 50px;
+    margin-left: 406px;
+    font-size: 67px;
+    text-align: center;
+}
+#photos {
+    height: 1024px;
+    background-image: url(images/background_gallery_img.jpg);
+}
+body p {
+}
+nav ul a {
+}
+ul a li {
+    display: inline-block;
+    padding: 16px 24px;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+ul a li:hover {
+    color: #31A5BC;
+    background-color: #1DE9DD;
+}
+#home {
+    background-image: url(images/Mana_Home_background_img.jpg);
+    background-size: cover;
+    width: 1366px;
+}
+#Photos_background_img {
+}
+#photos {
+    background-image: url(images/background_gallery_img.jpg);
+    background-repeat: no-repeat;
+}
+.imgone {
+}
+.mailings_background {
+    background-image: url(images/Mailing_list_page.jpg);
+}
+body wrapper {
+    line-height: -46px;
+    font-size: 0px;
+}
+#privacy {
+    background-image: url(images/Privacy_background.jpg);
+}
+#merch {
+    background-image: url(images/background_merch_img.jpeg);
+    background-size: cover;
+}
+#news {
+    background-size: cover;
+    background-image: url(images/news__background_img.jpg);
+}
+
+.text.news {
+}
+#h1store {
+    width: 709px;
+    color: #D80C10;
+    height: auto;
+    display: block;
+    padding-top: 148px;
+    padding-left: 367px;
+    font-family: "Helvetica Oblique";
+    font-style: italic;
+    font-size: 51px;
+    margin-top: 35px;
+}
+#h1photos {
+}
+#hoodies {
+    padding-top: 40px;
+    padding-left: 88px;
+    width: auto;
+    top: 120px;
+    margin-top: 71px;
+    margin-right: 60px;
+    margin-left: 138px;
+}
+#store #hoodies {
+}
+#tickets {
+    margin-right: 58px;
+    margin-left: 12px;
+}
+#h1_videos {
+    width: 680px;
+    height: auto;
+    padding-top: 0px;
+    color: #FFFFFF;
+    font-family: "Party LET Plain";
+    font-style: italic;
+    font-size: 46px;
+    display: block;
+    text-align: center;
+    padding-left: 242px;
+    margin-top: -770px;
+    margin-left: 95px;
+    background-image: url(url);
+}
+#iframe {
+    margin-left: 370px;
+    margin-top: 139px;
+    border: thick double #B37E24;
+    border-radius: 18px;
+}
+#h2videos {
+    color: #FFFFFF;
+    font-family: "Party LET Plain";
+    font-style: italic;
+    font-variant: normal;
+    font-size: 38px;
+    text-align: center;
+    margin-top: 101px;
+    margin-left: 23px;
+}
+#h1_concerts {
+    color: #D9181B;
+    font-family: "Party LET Plain";
+    font-style: italic;
+    font-size: 71px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: -853px;
+    margin-left: 353px;
+}
+#h2_concert {
+    width: 613px;
+    color: #FFFFFF;
+    font-family: "Helvetica Oblique";
+    font-style: italic;
+    font-variant: normal;
+    text-align: center;
+    font-size: 25px;
+    margin-left: 308px;
+    margin-top: 117px;
+}
+#article {
+    color: #F5F5F5;
+    font-family: "Helvetica Oblique";
+    font-style: italic;
+    font-variant: normal;
+    font-size: 35px;
+    width: 760px;
+    margin-left: 310px;
+    background-color: #63420E;
+    background-size: auto auto;
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+    height: auto;
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 22px;
+    padding-top: 13px;
+}
+#p1_concert {
+    background-color: #F7AA2A;
+    background-position: 39% 0%;
+    font-family: "Helvetica Oblique";
+    color: #FFFFFF;
+    font-style: italic;
+    font-size: 35px;
+    font-variant: normal;
+    font-weight: bold;
+    text-align: center;
+}
+#article_privacy #pprivacy1 {
+}
+#pprivacy1 {
+    padding-left: 0px;
+    text-align: left;
+    color: #FFFFFF;
+    top: 6px;
+    font-style: italic;
+    font-size: 26px;
+    font-variant: normal;
+    padding-right: 21px;
+}
+#last_p_privacy {
+    margin-left: 228px;
+    padding-left: 10px;
+}
+#pprivacy2 {
+    color: #FFFFFF;
+    font-family: "Helvetica Oblique";
+    font-style: italic;
+    font-size: 25px;
+    padding-right: 21px;
+}
+#p2_concert {
+    color: #FFF7F7;
+    font-family: "Helvetica Oblique";
+    font-style: italic;
+    font-size: 35px;
+    text-align: center;
+}
