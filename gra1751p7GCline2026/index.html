@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Travel | Gloria Cline, 2026</title>
+<script type="text/javascript">
+
+window.onload = function () {
+
+	document.getElementById("password1").onchange = validatePassword;
+
+	document.getElementById("password2").onchange = validatePassword;
+
+}
+
+function validatePassword(){
+
+var pass2=document.getElementById("password2").value;
+
+var pass1=document.getElementById("password1").value;
+
+if(pass1!=pass2)
+
+	document.getElementById("password2").setCustomValidity("Passwords Don't Match");
+
+else
+
+	document.getElementById("password2").setCustomValidity('');
+
+//empty string means no validation error
+
+}
+
+</script>
+<link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<wrapper>
+  <header id="page1">
+    <p>Welcome to Travel with Us !</p>
+  </header>
+  <main>
+    <h1>Hello !!!</h1>
+    <h2>Let's make sure your account information is correct.</h2>
+    <h3>All fields are required unless noted otherwise.</h3>
+    <form action="confirm-html">
+      <section>
+        <div id="salute">
+          <label>Salutation</label>
+          <select name="salutation_txt" id="salutation_txt">
+            <option value="0">Salutation</option>
+            <option value="1">Mr.</option>
+            <option value="2">Mrs.</option>
+            <option value="3">Miss</option>
+            <option value="4">Ms</option>
+            <option value="5">none</option>
+          </select>
+        </div>
+        <div id="first">
+          <label>First Name</label>
+          <input name="firstname_txt" type="text" required="required" id="firstname_txt" placeholder="First Name">
+        </div>
+        <label class="lastname">Last Name</label>
+        <input name="lastname_txt" type="text" required="required" id="lastname_txt" placeholder="Last Name">
+        <label>Birthdate</label>
+        <input name="birthdate_txt" type="date" required="required" id="birthdate_txt">
+        <label>Primary Phone Number</label>
+        <input name="phone_txt" type="tel" required="required" id="phone_txt" placeholder="(000) 000-0000" pattern="[0-9]{3}[\-][0-9]{3}[\-][0-
+9]{4}">
+        <label>Address</label>
+        <input type="text">
+        <label>Additional Address Info. (Optional)</label>
+        <input name="address_txt" type="text" required="required" id="address_txt" placeholder="enter address">
+        <label>I agree to the terms and conditions</label>
+        <input name="tnadc_txt" type="checkbox" required="required" id="tnadc_txt">
+      </section>
+      <section>
+        <label>City</label>
+        <input name="city_txt" type="text" required="required" id="city_txt" placeholder="Enter City">
+        <label>State</label>
+        <select name="state_txt" required="required" id="state_txt">
+          <option value="Florida">Fl</option>
+          <option value="California">Ca</option>
+          <option value="New York">NY</option>
+        </select>
+        <label>Zip Code</label>
+        <input name="zipcode_txt" type="text" required="required" id="zipcode_txt" placeholder="Zip Code" pattern="[0-9]{5}">
+        <label>Email</label>
+        <input name="email_txt" type="email" id="email_txt" placeholder="you@example.com">
+        <label>Password</label>
+        <input name="password1_txt" type="password" required="required" id="password1_txt" placeholder="and/or numbers" pattern="[0-9A-Za-z]{6,12}">
+        <label>Confirm Password</label>
+        <input name="password2_txt" type="password" required="required" id="password2_txt" placeholder="must match original password" pattern="[0-9A-Za-z]{6,12}">
+      </section>
+      <input name="submit_btn" type="submit" id="submit_btn" value="Join Rewards Program">
+    </form>
+  </main>
+  <footer>
+    <p>© 2026 Gloria Cline, Your name. This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</p>
+  </footer>
+</wrapper>
+</body>
+</html>

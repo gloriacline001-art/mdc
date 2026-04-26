@@ -1,0 +1,300 @@
+@charset "UTF-8";
+body {
+    padding: 0;
+    background-color: #ccc;
+    height: auto;
+    background-image: url(background-imfg.jpg);
+    display: block;
+    background-position: 50% 50%;
+    background-size: cover;
+    width: auto;
+    min-height: 100%;
+}
+wrapper {
+    width: 1366px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0;
+    display: block;
+    padding: 0;
+    height: auto;
+    background-color: rgba(152,152,152,0.51);
+    text-align: left;
+    background-size: auto auto;
+    max-width: 1143px;
+    margin-top: 89px;
+}
+main {
+    width: auto;
+    height: auto;
+    margin-top: -49px;
+    background-size: cover;
+    margin-left: 84px;
+}
+h1 {
+    text-align: center;
+    margin-left: 0px;
+    margin-top: 25px;
+    padding-top: 36px;
+    color: #FFFFFF;
+}
+wrapper main h1 {
+}
+#confirm {
+    width: 1366px;
+    margin-top: 160px;
+    max-width: 1142px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0;
+    display: block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 684px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 25px;
+    background-image: url(RectanglePage2.png);
+}
+#mainconf {
+    margin-top: -815px;
+    width: auto;
+    height: auto;
+}
+#h2conf {
+    margin-top: -66px;
+    color: #FAFAFA;
+    font-family: zapfino;
+    font-size: 30px;
+    margin-left: -22px;
+}
+#h3conf {
+    width: auto;
+    height: auto;
+    font-family: zapfino;
+    font-size: 35px;
+    margin-top: -44px;
+}
+#h1confirm {
+    margin-top: 190px;
+    color: #FCFCFC;
+    width: auto;
+    height: auto;
+    top: 54px;
+    font-family: zapfino;
+    font-size: 41px;
+    text-align: center;
+    margin-left: -46px;
+}
+#infcomf {
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 71px;
+    font-size: 32px;
+}
+#phone {
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: -24px;
+    font-size: 30px;
+}
+#footer2 {
+    margin-top: 184px;
+    text-align: center;
+    font-size: 16px;
+}
+#cnfirmp {
+    margin-top: -38px;
+    padding-top: 641px;
+    width: 664px;
+    height: 500px;
+    text-align: center;
+}
+.confirm {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1366px;
+    margin: 0 auto;
+    height: auto;
+    min-height: 1024px;
+    max-width: 1366px;
+}
+#travel_girl {
+    margin-left: 1309px;
+    margin-top: -690px;
+}
+section {
+    width: 36%;
+    display: inline-block;
+    padding-top: 83px;
+    padding-right: 83px;
+    padding-left: 83px;
+    padding-bottom: 83px;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    vertical-align: top;
+    text-shadow: 0px 0px #FFFFFF;
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+    margin-top: -71px;
+    margin-left: -39px;
+    height: auto;
+}
+h2 {
+    text-align: center;
+    margin-top: -16px;
+    height: auto;
+    color: #FFF6F6;
+    border-radius: 0;
+    margin-bottom: 7px;
+    margin-left: -1px;
+}
+h3 {
+    width: 1200px;
+    margin-top: -4px;
+    display: block;
+    font-family: "Avenir Heavy Oblique", "Avenir Next Medium Italic";
+    font-weight: normal;
+    text-align: center;
+    height: auto;
+}
+header {
+    border-bottom: 15px solid #000;
+    height: 117px;
+    color: #FFFFFF;
+    font-family: "Helvetica Oblique";
+    font-style: italic;
+    font-variant: normal;
+    font-size: 60px;
+    padding-top: 3px;
+    display: block;
+    margin-bottom: 3px;
+    padding-left: auto;
+    text-align: center;
+    width: 1139px;
+    margin-left: 0px;
+    margin-top: 11px;
+}
+#page1 {
+    color: rgba(238,238,238,1.00);
+    font-family: zapfino;
+    font-style: normal;
+    font-size: 28px;
+    text-align: center;
+    margin-top: -3px;
+}
+#page1 p {
+}
+footer {
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-size: 12px;
+    color: #FFFFFF;
+    margin-left: 21px;
+    margin-top: -46px;
+}
+h1.h2, h3 {
+    text-align: center;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    font-family: sans-serif;
+    color: #FFFFFF;
+    font-style: normal;
+    font-size: 24px;
+    padding-top: 0px;
+    font-weight: normal;
+    font-variant: normal;
+    width: auto;
+}
+label {
+    display: inline-block;
+    font-family: sans-serif;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    font-size: 16px;
+    width: 65%;
+    color: #FEFEFE;
+    font-style: normal;
+    font-variant: normal;
+    text-shadow: 0px 0px #4C4A4A;
+    height: auto;
+    margin-top: -134px;
+    margin-left: 10px;
+}
+.lastname  {
+    margin-left: 18px;
+    text-align: left;
+    margin-top: -54px;
+    width: auto;
+    height: auto;
+}
+input, select {
+    margin-top: 11px;
+    margin-right: 11px;
+    margin-left: 11px;
+    margin-bottom: 11px;
+    padding-top: 17px;
+    padding-right: 17px;
+    padding-left: 17px;
+    padding-bottom: 17px;
+    border-radius: 8px;
+    width: 81%;
+    background-color: rgba(237,110,7,0.65);
+    height: auto;
+}
+
+#submit_btn {
+    margin-left: -668px;
+    padding-left: 7px;
+    width: 24%;
+    margin-top: 586px;
+    text-align: left;
+}
+#tnadc_txt {
+    width: 83%;
+    margin-top: -16px;
+    height: auto;
+    display: block;
+    text-align: left;
+    margin-left: 25px;
+}
+#tnadc_txt {
+    margin-left: 110px;
+}
+#state_txt {
+    width: 341px;
+    margin-left: 11px;
+}
+
+#salute {
+    width: 86px;
+    display: inline-block;
+    margin-right: -4px;
+}
+#first {
+    width: 70%;
+    display: inline-block;
+    margin-right: -4px;
+    text-align: left;
+    height: auto;
+    margin-left: 19px;
+}
+.rectangle {
+    margin: 0 auto;
+    background-position: 50% 50%;
+    width: 1366px;
+    height: auto;
+    display: block;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
